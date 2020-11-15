@@ -1,0 +1,37 @@
+	//test_joy();
+	//delay(500);//
+	aux = joy.get_joy_pos();
+	//bool aux2;
+	//printaux();
+/*
+	if( (aux.axis_i[rl] <= JOY_DEADZONE_LOWER) || (aux.axis_i[rl] >= JOY_DEADZONE_UPPER) ){
+		m1.set_dir( (sm.evaluate_side_relative_to_deadzone(aux.axis_i[rl]) == RIGHT_OF_DEADZONE ? IZQUIERDA : DERECHA ) );
+		m1.set_pulse_width( sm.get_speed_axis(rl) );
+		//m1.set_pulse_width(5);
+		m1.start_motor();
+		//Serial.println("AA");
+	}
+	else m1.stop_motor();
+
+	if( (aux.axis_i[fb] <= JOY_DEADZONE_LOWER) || (aux.axis_i[fb] >= JOY_DEADZONE_UPPER) ){
+		m2.set_dir( (sm.evaluate_side_relative_to_deadzone(aux.axis_i[fb]) == RIGHT_OF_DEADZONE ? DERECHA : IZQUIERDA ) );
+		m2.set_pulse_width( sm.get_speed_axis(fb) );
+		//m2.set_pulse_width(5);
+		m2.start_motor();
+		//Serial.println("BB");
+	}
+	else m2.stop_motor();
+
+	if( (aux.axis_i[roll] <= JOY_DEADZONE_LOWER) || (aux.axis_i[roll] >= JOY_DEADZONE_UPPER) ){
+		m3.set_dir( (sm.evaluate_side_relative_to_deadzone(aux.axis_i[roll]) == RIGHT_OF_DEADZONE ? DERECHA : IZQUIERDA ) );
+		m3.set_pulse_width( sm.get_speed_axis(roll) );
+		//m3.set_pulse_width(5);
+		m3.start_motor();
+		//Serial.println("CC");
+	}
+	else m3.stop_motor();
+*/
+	//m1.print_pulse();
+	//m2.print_pulse();
+	//m3.print_pulse();
+

@@ -1,0 +1,6 @@
+Physical elements:
+    +Physical elements are intended to be the lowest level of the MCU application.
+    +All members should be private.
+    +Relevant data (such as the value of an ADC lecture) should be accessed only trough get_data() methods.
+    +If there's a parameter that makes sense to be able to modify after object creation, it should be done through a set_parameter() method.
+    +This MUST BE the only level of the program to deal with "acquisition" only this level can read or write ports and periferals.

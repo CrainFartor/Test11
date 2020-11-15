@@ -1,0 +1,7 @@
+Managers:
+    +Managers are intended to take the raw inputs from physical objects and translate that into usable or structured data (or both)
+	+Managers are meant to write and "manage" physical elements, preferable through structures when using more than one parameter
+	+Managers are not meant to do much flow control
+	+Managers are meant to be able to issue commands to physical elements, but not make decisions as to when said commands should be issued, selection is reserved for controllers
+	+All members should be private.
+	

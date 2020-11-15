@@ -1,0 +1,5 @@
+This folder is intended to hold all data, structures, enumerations and the like that are common to the entire system.
+(for the moment predefined movements go here as well)
+    -globlas.h          -   global variables intended to be used at the setup & loop routines
+    -test_and_temp.h    -   header file for functions & variables that are not meant to be used for the final code, but that are usefull hacks for rapid testing
+    -common_types.h     -   mosty enumerations & defines
